@@ -19,7 +19,7 @@ module.exports = {
       //   loader: 'eslint-loader'
       // },
       {
-        test: /\.jsx$/,
+        test: /\.jsx?$/,
         include: SRC_DIR,
         exclude: /node_modules/,
         use: {
