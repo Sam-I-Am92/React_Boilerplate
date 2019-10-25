@@ -5,7 +5,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       // state goes here
-    }
+    };
   }
 
   render() {
@@ -13,7 +13,7 @@ class App extends React.Component {
       <div>
         <p>Time: {this.props.time}</p>
       </div>
-    )
+    );
   }
 }
 

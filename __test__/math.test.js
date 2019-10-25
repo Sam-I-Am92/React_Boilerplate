@@ -7,7 +7,7 @@ test('Fake test', () => {
 
 describe('Setting up jest', () => {
   it('adds numbers', () => {
-    expect(add(1,2)).toEqual(3);
-    expect(add(2,3)).toEqual(5);
+    expect(add(1, 2)).toEqual(3);
+    expect(add(2, 3)).toEqual(5);
   });
 });
