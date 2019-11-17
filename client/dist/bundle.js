@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./client/dist/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./client/dist/style.css?");
+eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-1!./style.css */ \"./node_modules/css-loader/dist/cjs.js?!./client/dist/style.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./client/dist/style.css?");
 
 /***/ }),
 
@@ -121,14 +121,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./client/dist/style.css":
-/*!*********************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./client/dist/style.css ***!
-  \*********************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./client/dist/style.css":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./client/dist/style.css ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"#app {\\n  background-color: greenyellow;\\n  padding: 10px; \\n}\", \"\"]);\n\n\n//# sourceURL=webpack:///./client/dist/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"#_5JBTkPgi7948Xdzp0NPAQ {\\n  background-color: greenyellow;\\n  padding: 10px; \\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"app\": \"_5JBTkPgi7948Xdzp0NPAQ\"\n};\n\n//# sourceURL=webpack:///./client/dist/style.css?./node_modules/css-loader/dist/cjs.js??ref--6-1");
 
 /***/ }),
 

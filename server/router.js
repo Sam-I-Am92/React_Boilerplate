@@ -4,7 +4,7 @@ const router = express.Router();
 
 // test timelog function sends back time string
 var timeLog = (req, res) => {
-  var time = Date.now();
+  var time = `${Date.now()}`;
   res.status(200).send(time);
 };
 
